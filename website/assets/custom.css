@@ -10,8 +10,11 @@ h1 {
   max-height: 6rem;
 }
 
-.heading {
+.add-margin-top {
   margin-top: 2rem;
+}
+
+.heading {
   margin-bottom: 2rem;
   text-align: center;
 }
