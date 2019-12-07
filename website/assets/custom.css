@@ -4,6 +4,9 @@ body, html {
 
 /* headings: font-family: 'PT Serif', serif; */
 
+.navbar .navbar-brand .navbar-item .nav_logo {
+  max-height: 6rem;
+}
 
 .card + .card {
 	margin-top: 20px
