@@ -23,8 +23,12 @@ h1 {
   font-style: italic;
 }
 
-.page_is_selected {
+.page_is_selected, a.navbar-item:hover {
   background-color:#830404;
+  color:white;
+}
+a.page_is_selected:hover {
+  background-color:#B51004;
   color:white;
 }
 
@@ -48,6 +52,25 @@ h1 {
 .panel:not(:last-child) {
   margin: 0.75rem;
 }
+
+.panel-heading {
+  background-color: #830404;
+  color: white;
+  border-radius: 0;
+}
+
+.panel {
+  border-radius: 0;
+}
+
+.panel-block a {
+  color: #830404;
+  font-weight: bold;
+}
+.panel-block a:hover {
+  color: #100404;
+}
+
 
 .start-page-main {
     position: relative;
