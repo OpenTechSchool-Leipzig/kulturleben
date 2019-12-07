@@ -2,16 +2,21 @@ body, html {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'PT Serif', serif;
 }
 
 .navbar .navbar-brand .navbar-item .nav_logo {
-  max-height: 6rem;
+  max-height: 8rem;
+  
+}
+
+a.navbar-item {
+  font-size: 19px;
 }
 
 .add-margin-top {
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .heading {
