@@ -8,6 +8,11 @@ body, html {
   max-height: 6rem;
 }
 
+.page_is_selected {
+  background-color:#830404;
+  color:white;
+}
+
 .card + .card {
 	margin-top: 20px
 }
