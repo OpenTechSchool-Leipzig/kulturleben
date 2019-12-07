@@ -36,3 +36,16 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 	}
 });
+
+
+const imageWrapper = document.getElementById('imagewrapper')
+const imageContainers = Array.from(imageWrapper.getElementsByClassName('imagecontainer'))
+
+setInterval(showNextImage, 5000)
+
+let index = 0
+function showNextImage() {
+    imageContainers[index].classList.remove('visible')
+    index = (index + 1) % imageContainers.length
+    imageContainers[index].classList.add('visible')
+}
