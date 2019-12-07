@@ -11,7 +11,7 @@ h1 {
 }
 
 .add-margin-top {
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 
 .heading {
@@ -21,6 +21,7 @@ h1 {
 
 .heading h1 {
   font-style: italic;
+  text-transform: none;
 }
 
 .page_is_selected, a.navbar-item:hover {
