@@ -24,5 +24,14 @@ h1 {
 }
 
 .dont-flex p {
-	padding-left: 20px;
-}	
+	padding: 5px 20px;
+}
+
+.column {
+  margin: 0.75rem;
+  padding: 0;
+}
+
+.panel:not(:last-child) {
+  margin: 0.75rem;
+}
