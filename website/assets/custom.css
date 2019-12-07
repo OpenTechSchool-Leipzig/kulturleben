@@ -2,7 +2,9 @@ body, html {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* headings: font-family: 'PT Serif', serif; */
+h1 {
+  font-family: 'PT Serif', serif;
+}
 
 .navbar .navbar-brand .navbar-item .nav_logo {
   max-height: 6rem;
