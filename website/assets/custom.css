@@ -10,6 +10,16 @@ h1 {
   max-height: 6rem;
 }
 
+.heading {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.heading h1 {
+  font-style: italic;
+}
+
 .page_is_selected {
   background-color:#830404;
   color:white;
