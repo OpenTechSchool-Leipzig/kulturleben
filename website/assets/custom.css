@@ -15,6 +15,10 @@ a.navbar-item {
   font-size: 19px;
 }
 
+.add-margin-heading {
+  margin-top: 2rem;
+}
+
 .add-margin-top {
   margin-top: 10rem;
 }
@@ -29,12 +33,12 @@ a.navbar-item {
   text-transform: none;
 }
 
-.page_is_selected, a.navbar-item:hover {
+.page-is-selected, a.navbar-item:hover {
   background-color:#830404;
   color:white;
 }
-a.page_is_selected:hover {
-  background-color:#B51004;
+a.page-is-selected:hover {
+  background-color:#830404;
   color:white;
 }
 
