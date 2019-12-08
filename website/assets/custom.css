@@ -16,7 +16,7 @@ a.navbar-item {
   font-size: 19px;
 }
 
-a.navbar-item:hover {
+a, a.navbar-item:hover {
    color: #830404;
 }
 
