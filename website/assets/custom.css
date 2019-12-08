@@ -15,6 +15,10 @@ a.navbar-item {
   font-size: 19px;
 }
 
+a.navbar-item:hover {
+   color: #830404;
+}
+
 .add-margin-heading {
   margin-top: 2rem;
 }
@@ -33,7 +37,7 @@ a.navbar-item {
   text-transform: none;
 }
 
-.page-is-selected, a.navbar-item:hover {
+.page-is-selected {
   background-color:#830404;
   color:white;
 }
