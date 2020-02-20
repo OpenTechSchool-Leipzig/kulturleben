@@ -2,16 +2,30 @@ body, html {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
+h1, h2 {
   font-family: 'PT Serif', serif;
+  font-style: italic;
 }
 
 .navbar .navbar-brand .navbar-item .nav_logo {
-  max-height: 6rem;
+  max-height: 8rem;
+  
+}
+
+a.navbar-item {
+  font-size: 19px;
+}
+
+a, a.navbar-item:hover {
+   color: #830404;
+}
+
+.add-margin-heading {
+  margin-top: 2rem;
 }
 
 .add-margin-top {
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .heading {
@@ -20,16 +34,15 @@ h1 {
 }
 
 .heading h1 {
-  font-style: italic;
   text-transform: none;
 }
 
-.page_is_selected, a.navbar-item:hover {
+.page-is-selected {
   background-color:#830404;
   color:white;
 }
-a.page_is_selected:hover {
-  background-color:#B51004;
+a.page-is-selected:hover {
+  background-color:#830404;
   color:white;
 }
 
